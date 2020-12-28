@@ -1,0 +1,280 @@
+body {
+    background: #3e4144;
+}
+.form {
+    margin: 50px auto;
+    width: 300px;
+    padding: 30px 25px;
+    background: white;
+}
+h1.login-title {
+    color: #666;
+    margin: 0px auto 25px;
+    font-size: 25px;
+    font-weight: 300;
+    text-align: center;
+}
+.login-input {
+    font-size: 15px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 25px;
+    height: 25px;
+    width: calc(100% - 23px);
+}
+
+.login-input2 {
+    width: calc(100% - 23px);
+    font-size: 15px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 25px;
+
+}
+
+.login-input:focus {
+    border-color:#6e8095;
+    outline: none;
+}
+.login-button {
+    color: #fff;
+    background: #55a1ff;
+    border: 0;
+    outline: 0;
+    width: 100%;
+    height: 50px;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+}
+.link {
+    color: #666;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.link a {
+    color: #666;
+}
+h3 {
+    font-weight: normal;
+    text-align: center;
+}
+
+
+/* Result css */
+.result-header{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: -3em;
+}
+
+.result-header .school-logo{
+	width: 100px;
+	height: 50px;
+}
+
+.result-header .nigeria-logo {
+	width: 20%;
+	height: 20px;
+	margin-top: -8.5em;
+}
+.result-header .school-logo img{
+	width: 100%;
+	margin-top: -1.5em
+}
+.result-header .nigeria-logo img {
+	width: 100%;
+}
+
+.result-header .header-details {
+	text-align: center;
+	padding-top: 0;
+}
+
+.result-header .header-details h2{
+	text-transform: uppercase;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.result-header .header-details .sch-address,
+.result-header .header-details .tel-phone,
+.result-header .header-details .term{
+	font-size: .8em;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	padding: 0;
+	margin: .5em;
+}
+
+.result-header .header-details .sch-address i,
+.result-header .header-details .tel-phone i,
+.result-header .header-details .term i{
+	padding-right: 5px;
+	color: var(--bggrey);
+	font-size: 1em;
+}
+.result-header .header-details .term{
+	padding-top: .6em;
+	text-transform: uppercase;
+}
+
+
+.st-results .result-upbody {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	border: 1px solid var(--bggrey);
+	margin-top: .8em;
+}
+
+.st-results .result-upbody .result-table,
+.st-results .student-table .result-table,
+.st-results .result-body .result-table {
+	width: 100% !important;
+	border: 1px solid var(--bggrey);
+	margin: 0;
+}
+
+.st-results .result-upbody .result-table tr, th, td,
+.st-results .student-table .result-table tr, th, td,
+.st-results .result-body .result-table tr, th, td {
+	border: 1px solid var(--bggrey);
+	padding: .5em;
+}
+
+.result-table thead td {
+	padding-right: 7em;
+	font-size: 14px;
+}
+.student-table .result-table thead th,
+.student-table .result-table thead th {
+	padding-right: 30px;
+	font-weight: 700;
+	font-size: 14px;
+}
+
+.result-body .result-table thead th,
+.result-body .result-table tbody td {
+	font-size: 14px;
+}
+.result-body {
+	margin-top: 10px;
+}
+.result-body .result-table thead th {
+	text-align: center;
+	font-weight: 600;
+}
+
+.mark-obtainable th{
+	color: green !important;
+}
+
+.st-results .student-image {
+	width: 110px;
+	height: 110px;
+	border-radius: 110px;
+	min-width: 80px;
+	min-height: 50px;
+}
+
+.st-results .student-image img {
+	width: 100%;
+	height: 100%;
+	border-radius: 100%;
+}
+
+
+
+
+.result-bottom {
+	display: grid;
+	grid-template-columns: 40% 60%;
+	border: 1px solid var(--bggrey);
+	margin-top: 10px;
+}
+
+.result-bottom .key-grades {
+	border-right: 1px solid var(--bggrey);
+	padding-bottom: 10px;
+}
+.result-bottom .key-grades p, h3{
+	font-family: monospace;
+	font-weight: 700;
+	padding-left: 10px;
+}
+.result-bottom .key-grades p {
+	margin-top: 0;
+	margin-bottom: 0;
+	font-size: 12px;
+}
+.result-bottom .key-grades h3{
+	font-size: 14px;
+}
+
+.result-footer {
+	margin-top: 1.5em;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.result-footer .result-footer-content {
+	font-size: 1em;
+}
+
+.result-footer .result-footer-content .form-teacher-comment,
+.result-footer .result-footer-content .teacher-signature {
+	display: flex;
+}
+
+.result-footer .result-footer-content p{
+	font-size: .78em;
+	font-weight: 600;
+}
+.result-footer .result-footer-content hr {
+	height: 2px;
+	border-width: 0;
+	color: var(--bggrey);
+	background-color: var(--bggrey);
+	width: 77%;
+	margin-left: .05em !important;
+	padding-left: .5em;
+	
+}
+
+.result-footer .result-footer-content .teacher-signature hr {
+	width: 22%;
+	margin-left: .6em !important;
+	padding-left: .5em;
+}
+
+.result-footer .result-footer-content .teacher-signature .teacher-name {
+	margin-left: 1.5em;
+}
+
+.teacher-signature span {
+	border-bottom: 2px solid var(--bggrey);
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: .9em;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+.teacher-signature .signature{
+	margin-left: 1.5em;
+}
+
+.designBy{
+	float: right !important;
+	margin-top: 3em;
+	font-size: .8em;
+}
+
+.designBy span {
+	color: #008DE7;
+
+}
+/* Result css */
